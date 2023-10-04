@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Mayur";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -312,7 +312,7 @@ document.onkeydown = function (e) {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Experience | Portfolio Jigar Sable";
+            document.title = "Experience | Portfolio Mayur";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
