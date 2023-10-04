@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/skill.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">@Mayur</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skill">Skill</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="home" id="home">
+        <div id="particles-js"></div>
+        <div class="image">
+            <img draggable="false" src="./assests/image/hero1-removebg-preview.png" alt="">
+        </div>
+        <div class="content">
+            <h2>Namaste,<br /> I'm Mayur <span>Bhoyar</span></h2>
+            <p>I am <span class="typing-text"></span></p>
+            <a href="#About" class="btn"><span>About Me</span>
+                <i class="fas fa-arrow-circle-down"></i>
+            </a>
+            <div class="socials">
+                <ul class="social-icons">
+                    <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/mayurb79"
+                            target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="github" aria-label="GitHub" href="https://github.com/Mayur79" target="_blank"><i
+                                class="fab fa-github"></i></a></li>
+                    <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/mayurbh37773727"
+                            target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="telegram" aria-label="Telegram" href="https://t.me/Mayur" target="_blank"><i
+                                class="fab fa-telegram-plane"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="About">
+        <h1>About Me</h1>
+
+        <div class="about-section">
+            <img class="profile-image" src="./assests/image/Mypic2.jpeg" alt="Profile Image">
+            <div class="content">
+                <p>
+                    Hello! My name is Mayur Bhoyar and I'm a passionate web developer. I specialize in creating
+                    responsive
+                    and user-friendly websites using modern technologies. With several years of experience in the field,
+                    I have developed a strong foundation in HTML, CSS, JavaScript, and various web frameworks.
+                </p>
+
+                <p>
+                    I have a keen eye for design and enjoy crafting visually appealing interfaces that enhance the user
+                    experience. My goal is to create elegant and functional websites that meet the needs of clients and
+                    provide an enjoyable browsing experience for users.
+                </p>
+
+                <p>
+                    In addition to web development, I'm also experienced in version control systems like Git and have
+                    worked in collaborative environments using agile methodologies. I have a strong attention to detail,
+                    excellent problem-solving skills, and a passion for continuous learning to stay up-to-date with the
+                    latest industry trends.
+                </p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- skill -->
+    <div id="Skill">
+
+
+        <h1>Skill</h1>
+        <div class="wrapper">
+            <div class="card html">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">HTML</div>
+            </div>
+            <div class="card css">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">CSS</div>
+            </div>
+            <div class="card js">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">JavaScript</div>
+            </div>
+            <div class="card react">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">react</div>
+            </div>
+
+        </div>
+        <div class="wrapper">
+            <div class="card java">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">Java</div>
+            </div>
+            <div class="card C">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">C</div>
+            </div>
+            <div class="card mongo">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">MongodDB</div>
+            </div>
+            <div class="card node">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">Node/Express</div>
+            </div>
+
+        </div>
+        <div class="wrapper">
+            <div class="card python">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">Python</div>
+            </div>
+            <div class="card git">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">GitHub</div>
+            </div>
+            <div class="card vscode">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">Vs Code</div>
+            </div>
+            <div class="card tailcss">
+                <div class="circle">
+                    <div class="bar"></div>
+                    <div class="box"><span></span></div>
+                </div>
+                <div class="text">Tailwind CSS</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Experience -->
+    <!------EXPERIENCE SECTION------>
+    <div class="main-section bg-lightgrey">
+        <div class="container">
+            <div class="edu-exp">
+                <h2 class="heading-text">Education</h2>
+                <div class="experience-list">
+                    <div class="experience-content">
+                        <h2>G H RAISONI COLLEGE OF ENGINEERING</h2>
+                        <h3>2020-2024</h3>
+                        <p>BTech in Computer Engineering</p>
+                    </div>
+                </div>
+                <div class="experience-list">
+                    <div class="experience-content">
+                        <h2>Nabira Junior College</h2>
+                        <h3>2018-2020</h3>
+                        <p>HSC(Science)</p>
+                    </div>
+                </div>
+                <div class="experience-list">
+                    <div class="experience-content">
+                        <h2>Mount Carmel Convent School</h2>
+                        <h3>2017-2018</h3>
+                        <p>SSC</p>
+                    </div>
+                </div>
+            </div>
+            <div class="edu-exp">
+                <h2 class="heading-text">Experience</h2>
+                <div class="experience-list">
+                    <div class="experience-content">
+                        <h2>Playerorbit</h2>
+                        <h3>14 July 2023-current</h3>
+                        <p>Full Stack Developer Intern</p>
+                    </div>
+                </div>
+                <div class="experience-list">
+                    <div class="experience-content">
+                        <h2>CodeINBlogs</h2>
+                        <h3>1 May 2023-1 July 2023</h3>
+                        <p>Web Developer Intern</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact Us form -->
+    <div class="background">
+        <div class="contact">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                        <div class="app-title">
+                            <span>CONTACT</span>
+                            <span>US</span>
+                        </div>
+                        <div class="app-contact">CONTACT INFO : 8767732105</div>
+                    </div>
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="NAME">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="EMAIL">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="CONTACT NO">
+                            </div>
+                            <div class="app-form-group message">
+                                <input class="app-form-control" placeholder="MESSAGE">
+                            </div>
+                            <div class="app-form-group buttons">
+                                <button class="app-form-button">CANCEL</button>
+                                <button class="app-form-button">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- typed.js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+        integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- particle.js links -->
+    <script src="./assests/js/particles.min.js"></script>
+    <script src="./assests/js/app.js"></script>
+
+    <script src="./assests/js/script.js"></script>
+    <script src="./assests/js/skill.js"></script>
+
+</html>
